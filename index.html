@@ -33,12 +33,6 @@
         </div>
     </div>
 </div>
-<div class="container body-content">
-    <footer class="footer">
-        <p>&copy; Birado Inc. <script>document.write(new Date().getFullYear())</script>
-        </p>
-    </footer>
-</div>
 
 
     <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -48,17 +42,19 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"
             asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
             asp-fallback-test="window.jQuery">
-        
+
     </script>
     <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/bootstrap.min.js"
             asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
             asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
-        
+
     </script>
     <script src="~/js/site.min.js" asp-append-version="true"></script>
-    
+
     <!-- -->
-    
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-4">
@@ -121,12 +117,27 @@
     </div>
 </div>
 
+    <!--
 <div class="container">
     <div class="row">
-      <h1 class="h1"><a href="mailto:team@birado.com?Subject=Hello%20again">Email us</a></h1> 
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+      <h1 class="h1"><a href="mailto:team@birado.com?Subject=Hello%20again">Email us</a></h1>
+      </div>
     </div>
 </div>
-
+-->
+<div class="container body-content">
+    <footer class="footer">
+      <ul id="footer-list">
+        <li>&copy; Birado Inc. <script>document.write(new Date().getFullYear())</script></li>
+        <li>
+<a href="mailto:team@birado.com?Subject=Hello%20again">Email us</a>
+        </li>
+      </ul>
+    </footer>
+</div>
 
 </body>
 </html>
